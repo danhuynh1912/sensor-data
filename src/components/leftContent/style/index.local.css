@@ -1,0 +1,53 @@
+.left-content-container {
+  padding: 16px;
+  width: 15%;
+  background-color: #e9ebeb;
+}
+
+.left-content-container h4 {
+  opacity: 0.4;
+  margin-bottom: 8px;
+}
+
+.newWidget,
+.widget button {
+  background-color: #74aafa;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.newWidget:hover,
+.widget button:hover {
+  background-color: #6aa3f7;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0 12px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  height: 70px;
+  box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.112);
+}
+
+.widget img {
+  object-fit: cover;
+  width: 46px;
+  height: 46px;
+  margin-right: 16px;
+}
+
+.widget p {
+  margin: 0;
+}
+
+.widgetTitle {
+  width: 100%;
+}
